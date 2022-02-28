@@ -2,44 +2,99 @@
     margin: 0;
     padding: 0;
 }
+
 body{
     margin: 0;
     background-color: rgb(148, 131, 131);
-    margin-left: 20%; 
-    margin-right: 20%;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 1100px;
     margin-top: 0;
+    margin-bottom: 0;
 }
 .head{
-    background-color: aquamarine;
+    background-color: rgb(85, 71, 133);
     top: 0;
 }
 .high{
     position: fixed;
     margin-top: none;
-    background-color: aqua;
-    left: 20%;
-    right: 20%;
+    background-color: rgb(255, 255, 255);
+    height: 125px;
+    width: 1100px;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
 }
 .high_r{
-    font-size: 1px;
-    background: yellow;
-    padding-right: 0%;
-    padding-top: 0%;
+    background: rgb(255, 255, 255);
     display: flex;
-    right: 0;
+    position: relative;
+    width: auto;
+    height: auto;
+}
+
+.high_r a{
+    color: rgb(105, 105, 105);
+    text-decoration-line: none;
+    text-decoration-color: none;
+}
+.high_r li{
+    color: rgb(105, 105, 105);
+    text-decoration-line: none;
+    text-decoration-color: none;
 }
 .high_r ul{
-    justify-content: flex-end;
+    font-size: 9px;
+    margin-left: auto;
     display: flex;
     list-style: none;
-    right: 5%;
-    padding-right: 0%;
 }
 
 .high_r li {
-    padding: 6px 10px;
-    border-radius: 5px;
+    padding: 1px 5px ;
     background-color: rgb(255, 255, 255);   
-    transition: all 0.1s ease-in-out;
-    margin-right: 20px;
+}
+
+.high_sear{
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: rgb(255, 255, 255);
+    width: 1000px;
+    height: 50px;
+    display: flex;
+    left: 10;
+}
+.high_sear_logo{
+    position: relative;
+    margin-top: auto;
+    background-color: rgb(255, 255, 255);
+}
+.high_sear_logo img{
+    width:50px;
+    height:45px;
+    top: 5px;
+    position: relative;
+}
+.high_sear_logo a{
+    font-size: 39px;
+    color: rgb(0, 199, 60);
+    text-decoration-line: none;
+    text-decoration-color: none;
+    position: relative;
+}
+.high_sear_typing input{
+    width: 550px;
+    height: 45px;
+    border: 3px solid rgb(0, 199, 60);
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+}
+.high_sear_typing img{
+    width:50px;
+    height:50px;
+    margin: 0%;
 }
