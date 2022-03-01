@@ -2,4 +2,18 @@
     position: relative;
     top: 150px;
     z-index: 9;
+    background-color: aqua;
+    display: flex;
+}
+.navigation_menu{
+    background: rgb(255, 255, 255);
+    display: flex;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex-direction: row;
+}
+.navigation_menu ul{
+    display: flex;
+    list-style: none;
 }
