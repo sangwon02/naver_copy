@@ -12,6 +12,7 @@
     width: auto;
     height: auto;
     flex-direction: row;
+    
 }
 .navigation_menu ul{
     display: flex;
