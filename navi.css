@@ -1,8 +1,8 @@
 .navigation{
     position: relative;
-    top: 150px;
+    top: 125px;
     z-index: 9;
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
     display: flex;
 }
 .navigation_menu{
@@ -17,4 +17,44 @@
 .navigation_menu ul{
     display: flex;
     list-style: none;
+    font-size: 14px;
+}
+
+.navigation_menu a{
+    color: rgb(0, 0, 0);
+    text-decoration-line: none;
+    text-decoration-color: none;
+}
+
+.navigation_menu li{
+    padding: 1px 5px ;
+    background-color: rgb(255, 255, 255); 
+}
+
+.navigation_weather{
+    background: rgb(255, 255, 255);
+    display: flex;
+    position: relative;
+    width: auto;
+    height: auto;
+    flex-direction: row;
+    margin-left: auto;
+}
+
+.navigation_weather ul{
+    display: flex;
+    list-style: none;
+    font-size: 14px;
+    margin-left: auto;
+}
+
+.navigation_weather a{
+    color: rgb(117, 130, 204);
+    text-decoration-line: none;
+    text-decoration-color: none;
+}
+
+.navigation_weather li{
+    padding: 1px 5px ;
+    background-color: rgb(255, 255, 255); 
 }
