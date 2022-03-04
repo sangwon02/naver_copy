@@ -22,9 +22,10 @@
     position: relative;
     top: 170px;
     z-index: 9;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(187, 91, 91);
     display: flex;
     width: 1100px;
+    height: 200px;
 }
 .navigation_menu{
     background: rgb(255, 255, 255);
@@ -33,7 +34,7 @@
     width: auto;
     height: auto;
     flex-direction: row;
-    
+    top: 50px;
 }
 .navigation_menu ul{
     display: flex;
