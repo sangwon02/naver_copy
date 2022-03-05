@@ -16,6 +16,7 @@ body{
     background-color: rgb(255, 255, 255);
     top: 0;
     position: fixed;
+    z-index: 10;
 }
 .high{
     position: fixed;
@@ -26,7 +27,6 @@ body{
     margin-top: 0;
     display: flex;
     flex-direction: column;
-    z-index: 10;
 }
 .high_r{
     background: rgb(255, 255, 255);
