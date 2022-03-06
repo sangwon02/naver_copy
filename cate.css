@@ -1,5 +1,50 @@
 .cate{
     position: relative;
+    top: 220px;
+    display: flex;
+}
+
+.cate_l{
+    width: 700px;
+    background-color: azure;
+}
+
+.cate_l_ad img{
+    width: 700px;
+    height: 150px;
+}
+
+.cate_l_news{
+    background-color: rgb(191, 178, 202);
+    display: flex;
+    height: 60px;
+}
+
+.cate_l_news_menu{
     
-    top: 500px;
+}
+
+.cate_l_news_menu a{
+    color: rgb(51, 47, 47);
+    text-decoration-line: none;
+    text-decoration-color: none;
+}
+
+.cate_l_news_menu ul{
+    list-style: none;
+    display: flex;
+    font-size: 12px;
+    
+}
+
+.cate_r{
+    position: relative;
+    left: 50px;
+    width: 350px;
+    background-color: blanchedalmond;
+}
+
+.test{
+    position: relative;
+    top: 2000px;
 }
