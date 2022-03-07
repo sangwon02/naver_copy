@@ -1,0 +1,11 @@
+.cate_r{
+    position: relative;
+    left: 50px;
+    width: 350px;
+    background-color: blanchedalmond;
+}
+
+.test{
+    position: relative;
+    top: 2000px;
+}
